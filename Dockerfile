@@ -20,4 +20,4 @@ EXPOSE 8000
 RUN python manage.py migrate
 
 # Run the Django application
-CMD python /app/web-app/manage.py runserver 0.0.0.0:8000
+CMD ["python", "/app/web-app/manage.py", "runserver", "0.0.0.0:8000"]
