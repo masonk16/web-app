@@ -1,12 +1,12 @@
 1. Initialize the remote repo with a `.gitignore` file
 
-3. Clone to local:
+2. Clone to local:
 
     ```shell
     git clone <link to repository>
     ```
 
-4. Create and activate virtual environment:
+3. Create and activate virtual environment:
 
     ```shell
     # Linux
@@ -21,24 +21,23 @@
     # Windows/Powershell
     python -m venv .venv
 
-    .\.venv\Scripts\activate
+    .venv\Scripts\activate
     ```
 
-5. Install Django
+4. Install Django
 
     ```shell
     pip install Django
     ```
 
-6. Create requirements file:
+5. Create requirements file:
 
     ```shell
     pip freeze > requirements.txt
     ```
 
-7. Create a django project:
+6. Create a django project:
 
     ```shell
     django-admin startproject config .
     ```
-
